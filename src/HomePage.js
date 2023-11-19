@@ -9,7 +9,8 @@ function HomePage() {
 
       {/* Hero Section */}
       <section className="hero-section">
-        <h1>Elevate Your Viewing Experience with Professional TV Mounting</h1>
+        <h1> Black Beret Installations</h1>
+        <h2>Elevate Your Viewing Experience with Professional TV Mounting</h2>
         <p>At Black Beret Installations , we understand that your television isn't just a device; it's the centerpiece of your home entertainment. That's why we offer top-notch TV mounting services to elevate your viewing experience to a whole new level. Our team of highly skilled technicians specializes in seamlessly mounting your TV on any wall type, whether it's drywall, concrete, or brick. We take care of all the details, ensuring a secure and aesthetically pleasing installation that complements your home decor.</p>     
       </section>
 
