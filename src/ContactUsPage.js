@@ -11,7 +11,7 @@ function ContactUsPage() {
           <p>If you have any questions or need assistance, feel free to reach out to us.</p>
           <p><strong>Email:</strong> info@blackberetinstallations.com</p>
           <p><strong>Phone:</strong> +1 234 567 8901</p>
-          <p><strong>Address:</strong> 1234 Street Name, City, State, Country</p>
+          <p><strong>Address:</strong> City, Country</p>
         </div>
         <form className="contact-form" action="https://formspree.io/f/mnqkylwq" method="POST">
           <label htmlFor="name">Name</label>
