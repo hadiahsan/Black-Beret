@@ -5,7 +5,7 @@ function QuotePage() {
   return (
     <div className="quote-container">
       <h1>Get a Competitive Quote</h1>
-      <form action="https://formspree.io/f/mnqkylwq" method="POST">
+      <form action="https://formspree.io/f/xnqkykdk" method="POST">
         <label>
           TV Size:
           <input type="text" name="TV Size" />
