@@ -16,17 +16,17 @@ function ContactUsPage() {
         <form className="contact-form" action="https://formspree.io/f/mnqkylwq" method="POST">
           <label>
           Name:
-          <input type="text" className="text-box" name="name"  />
+          <input type="text" className="text-box" name="Name"  />
           </label>
 
           <label>
           Email:
-          <input type="text" className="text-box" name="name"  />
+          <input type="text" className="text-box" name="Email"  />
           </label>
 
           <label>
           Message:
-          <input type="text" className="text-box" name="name"  />
+          <input type="text" className="text-box" name="Message"  />
           </label>
 
           <button type="submit">Send Message</button>
