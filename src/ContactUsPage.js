@@ -13,7 +13,7 @@ function ContactUsPage() {
           <p><strong>Phone:</strong> +1 234 567 8901</p>
           <p><strong>Address:</strong> City, Country</p>
         </div>
-        <form className="contact-form" action="https://formspree.io/f/mnqkylwq" method="POST">
+        <form className="contact-form" action="https://formspree.io/f/xnqkykdk" method="POST">
           <label htmlFor="name">Name</label>
           <input type="text" id="name" name="name" required />
 
