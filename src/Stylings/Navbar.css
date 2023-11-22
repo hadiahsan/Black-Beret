@@ -1,6 +1,6 @@
 /* Navbar Styles */
 .navbar {
-  background-color: #007bff; /* A nice blue */
+  background-color: #2B2B2B; /* A nice blue */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   padding: 0 20px;
   margin-top: 20px
@@ -31,7 +31,7 @@
 }
 
 .nav-item a:hover, .nav-item a.active {
-  background-color: #0056b3; /* A darker blue for hover and active state */
+  background-color: black; /* A darker blue for hover and active state */
   border-radius: 4px;
 }
 

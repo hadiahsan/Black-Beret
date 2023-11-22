@@ -4,7 +4,7 @@
   padding: 40px; /* Increased padding for better spacing */
   text-align: center;
   color: white;
-  background-color: #007bff; /* Optional: Add a background color */
+  background-color: #2B2B2B; /* Optional: Add a background color */
   border-radius: 10px; /* Optional: Rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Box shadow for depth */
 }
@@ -27,17 +27,8 @@
   align-items: flex-start;
 }
 
-.quote-container input[type="text"],
-.quote-container textarea {
-  width: 100%;
-  padding: 15px; /* Increased padding for larger input areas */
-  margin-top: 10px; /* Increased margin top */
-  border: 2px solid #ccc; /* Adjusted border thickness */
-  border-radius: 6px; /* Adjusted border radius */
-}
-
 .quote-container button {
-  background-color: #0056b3;
+  background-color: #1C1C1C;
   color: white;
   border: none;
   padding: 15px 30px; /* Increased padding for a larger button */
@@ -53,3 +44,51 @@
     padding: 20px;
   }
 }
+
+/*Job dropdown*/
+.job-dropdown {
+  width: 100%; /* Full width */
+  padding: 8px 12px; /* Some padding */
+  border: 1px solid #ccc; /* A light border */
+  border-radius: 4px; /* Rounded corners */
+  box-sizing: border-box; /* Box sizing to include padding */
+  margin-top: 8px; /* Margin for spacing */
+  margin-bottom: 16px; /* Margin for spacing */
+  background-color: white; /* Background color */
+  font-size: 16px; /* Text size */
+  color:black;
+}
+
+.job-dropdown:focus {
+  outline: none; /* Removes the default focus outline */
+  border-color: #6658d3; /* Changes border color on focus */
+  box-shadow: 0 0 5px rgba(102, 88, 211, 0.5); /* Adds a subtle shadow on focus */
+}
+
+.job-dropdown option {
+  color: black; /* Text color for options */
+  padding: 10px; /* Padding for options */
+}
+
+.job-dropdown option[value=""][disabled] {
+  color: gray;
+}
+
+.text-box {
+  width: 100%; /* Full width */
+  padding: 8px 12px; /* Some padding */
+  border: 1px solid #ccc; /* A light border */
+  border-radius: 4px; /* Rounded corners */
+  box-sizing: border-box; /* Box sizing to include padding */
+  margin-top: 8px; /* Margin for spacing */
+  margin-bottom: 16px; /* Margin for spacing */
+  background-color: white; /* Background color */
+  font-size: 16px; /* Text size */
+}
+
+.text-box:focus {
+  outline: none; /* Removes the default focus outline */
+  border-color: #6658d3; /* Changes border color on focus */
+  box-shadow: 0 0 5px rgba(102, 88, 211, 0.5); /* Adds a subtle shadow on focus */
+}
+

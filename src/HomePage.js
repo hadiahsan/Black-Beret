@@ -68,7 +68,6 @@ function HomePage() {
         <Link to="/quote">
           <button className="cta-button">Get a Quote</button>
         </Link>
-
       </section>
 
     </div>

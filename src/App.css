@@ -28,7 +28,7 @@ body {
   font-family: 'Roboto', sans-serif; /* Your preferred font */
   line-height: 1.6;
   color: #333;
-  background-color: #007bff; /* Your preferred background color */
+  background-color: #1C1C1C ; /* Your preferred background color */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -41,7 +41,7 @@ p {
 }
 
 a {
-  color: #007bff; /* Your preferred link color */
+  color: #1C1C1C; /* Your preferred link color */
   text-decoration: none;
 }
 

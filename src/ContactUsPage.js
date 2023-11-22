@@ -6,12 +6,12 @@ function ContactUsPage() {
     <div className="contact-container">
       <h1>Contact Us</h1>
       <div className="contact-content">
-        <div className="contact-info">
-          <h2>Get in Touch</h2>
-          <p>If you have any questions or need assistance, feel free to reach out to us.</p>
-          <p><strong>Email:</strong> info@blackberetinstallations.com</p>
-          <p><strong>Phone:</strong> +1 234 567 8901</p>
-          <p><strong>Address:</strong> City, Country</p>
+        <div className="contact-header">
+          <h2>If you have any questions or need assistance, feel free to reach out to us.</h2>
+          <p>info@blackberetinstallations.com</p>
+          <p> +1 234 567 8901</p>
+          <p>City, Country</p>
+      </div>
         </div>
         <form className="contact-form" action="https://formspree.io/f/xnqkykdk" method="POST">
           <label htmlFor="name">Name</label>
@@ -25,7 +25,6 @@ function ContactUsPage() {
 
           <button type="submit">Send Message</button>
         </form>
-      </div>
     </div>
   );
 }
