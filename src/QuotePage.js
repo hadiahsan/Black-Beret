@@ -52,7 +52,7 @@ function QuotePage() {
           Additional Information:
           <textarea name="Additional Info" className="text-box"></textarea>
         </label>
-        <button type="submit">Submit</button>
+        <button type="submit">Get My Quote</button>
       </form>
     </div>
   );

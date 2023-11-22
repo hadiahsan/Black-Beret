@@ -48,6 +48,11 @@
   cursor: pointer;
   border-radius: 8px; /* Rounded corners for the button */
   font-size: 1.1em; /* Larger font size for the button */
+  transition: background-color 0.3s ease;
+}
+
+.contact-container button:hover {
+  background-color: #808080; /* Darker shade of green */
 }
 
 .contact-header {
@@ -60,4 +65,22 @@
     max-width: 100%;
     padding: 20px;
   }
+}
+
+.text-box {
+  width: 100%; /* Full width */
+  padding: 8px 12px; /* Some padding */
+  border: 1px solid #ccc; /* A light border */
+  border-radius: 4px; /* Rounded corners */
+  box-sizing: border-box; /* Box sizing to include padding */
+  margin-top: 8px; /* Margin for spacing */
+  margin-bottom: 16px; /* Margin for spacing */
+  background-color: white; /* Background color */
+  font-size: 16px; /* Text size */
+}
+
+.text-box:focus {
+  outline: none; /* Removes the default focus outline */
+  border-color: #6658d3; /* Changes border color on focus */
+  box-shadow: 0 0 5px rgba(102, 88, 211, 0.5); /* Adds a subtle shadow on focus */
 }

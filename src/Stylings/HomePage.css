@@ -46,14 +46,6 @@
   font-weight: bold; /* Bold font for buttons */
 }
 
-.footer {
-  background-color: #333;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  font-size: 1.1em; /* Slightly larger font size for footer */
-}
-
 /* Responsive Design */
 @media (max-width: 768px) {
   .hero-section {

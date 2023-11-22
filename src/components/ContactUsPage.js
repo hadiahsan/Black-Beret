@@ -1,5 +1,5 @@
 import React from 'react';
-import './Stylings/ContactUsPage.css';
+import '../Stylings/ContactUsPage.css';
 
 function ContactUsPage() {
   return (
@@ -11,17 +11,23 @@ function ContactUsPage() {
           <p>info@blackberetinstallations.com</p>
           <p> +1 234 567 8901</p>
           <p>City, Country</p>
-      </div>
         </div>
-        <form className="contact-form" action="https://formspree.io/f/xnqkykdk" method="POST">
-          <label htmlFor="name">Name</label>
-          <input type="text" id="name" name="name" required />
+      </div>
+        <form className="contact-form" action="https://formspree.io/f/mnqkylwq" method="POST">
+          <label>
+          Name:
+          <input type="text" className="text-box" name="name"  />
+          </label>
 
-          <label htmlFor="email">Email</label>
-          <input type="email" id="email" name="email" required />
+          <label>
+          Email:
+          <input type="text" className="text-box" name="name"  />
+          </label>
 
-          <label htmlFor="message">Message</label>
-          <textarea id="message" name="message" required></textarea>
+          <label>
+          Message:
+          <input type="text" className="text-box" name="name"  />
+          </label>
 
           <button type="submit">Send Message</button>
         </form>

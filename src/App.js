@@ -1,11 +1,9 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import Header from './components/Header';
-import Footer from './components/Footer';
 import Navbar from './components/Navbar';
-import HomePage from './HomePage';
+import HomePage from './components/HomePage';
 import QuotePage from './QuotePage';
-import ContactUsPage from './ContactUsPage';
+import ContactUsPage from './components/ContactUsPage';
 import "./App.css"
 
 // Import other pages as needed
@@ -13,7 +11,6 @@ import "./App.css"
 function App() {
   return (
     <div>
-      <Header />
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
@@ -21,7 +18,6 @@ function App() {
         <Route path="/contact" element={<ContactUsPage />} />
         // Add more routes as needed
       </Routes>
-      <Footer />
     </div>
   );
 }

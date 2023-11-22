@@ -37,6 +37,10 @@
   font-size: 1.1em; /* Increased font size */
 }
 
+.quote-container button:hover {
+  background-color: #808080;
+}
+
 /* Responsive Design for smaller screens */
 @media (max-width: 768px) {
   .quote-container {
