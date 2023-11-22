@@ -8,23 +8,23 @@ function QuotePage() {
       <form action="https://formspree.io/f/mnqkylwq" method="POST">
         <label>
           TV Size:
-          <input type="text" name="tvSize" />
+          <input type="text" name="TV Size" />
         </label>
         <label>
           Do you have a mount?
-          <input type="text" name="mountNeeded" />
+          <input type="text" name="Mount Needed" />
         </label>
         <label>
           Address:
-          <input type="text" name="address" />
+          <input type="text" name="Address" />
         </label>
         <label>
           Availability:
-          <input type="text" name="availability" />
+          <input type="text" name="Availability" />
         </label>
         <label>
           Additional Information:
-          <textarea name="additionalInfo"></textarea>
+          <textarea name="Additional Info"></textarea>
         </label>
         <button type="submit">Submit</button>
       </form>
