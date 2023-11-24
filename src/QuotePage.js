@@ -5,7 +5,19 @@ function QuotePage() {
   return (
     <div className="quote-container">
       <h1>Get a Competitive Quote</h1>
-      <form action="https://formspree.io/f/xnqkykdk" method="POST">
+      <form action="https://formspree.io/f/mnqkylwq" method="POST">
+        <label>
+          Full Name:
+          <input type="text" className="text-box" name="Full Name"  />
+        </label>
+        <label>
+          Phone Number:
+          <input type="tel" className="text-box" name="Phone Number"  />
+        </label>
+        <label>
+          Address:
+          <input type="text" className="text-box" name="Address"  />
+        </label>
         <label>
           Job:
           <select name="Job" className="job-dropdown" defaultValue="">
@@ -40,17 +52,15 @@ function QuotePage() {
             <option value="barn-wood-panels">Barn Wood Panels</option>
           </select>
         </label>
-        <label>
-          Address:
-          <input type="text" className="text-box" name="Address"  />
-        </label>
+        
+        
         <label>
           Availability:
           <input type="text" className="text-box" name="Availability" />
         </label>
         <label>
           Additional Information:
-          <textarea name="Additional Info" className="text-box"></textarea>
+          <textarea className="text-box" name="Additional Info" ></textarea>
         </label>
         <button type="submit">Get My Quote</button>
       </form>
