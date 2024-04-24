@@ -5,7 +5,7 @@ function QuotePage() {
   return (
     <div className="quote-container">
       <h1>Get a Competitive Quote</h1>
-      <form action="https://formspree.io/f/mnqkylwq" method="POST">
+      <form action="https://formspree.io/f/mvoeddnj" method="POST">
         <label>
           Full Name:
           <input type="text" className="text-box" name="Full Name"  />
@@ -39,8 +39,10 @@ function QuotePage() {
             <option value="event-backdrops">Event Back Drops</option>
             <option value="backyard-fence-door-locks">Back Yard Fence Door Locks</option>
             <option value="garage-racks">Garage Racks All Types</option>
+            <option value="other">Other</option>
           </select>
-        </label>
+        </label> 
+
         <label>
           Hardware Required:
           <select name="Hardware" className="job-dropdown" defaultValue="">
@@ -50,13 +52,14 @@ function QuotePage() {
             <option value="garage-door-opener">Garage Door Opener</option>
             <option value="accent-wall">Accent Wall Panels</option>
             <option value="barn-wood-panels">Barn Wood Panels</option>
+            <option value="other">Other</option>
           </select>
         </label>
         
         
         <label>
           Availability:
-          <input type="text" className="text-box" name="Availability" />
+          <input type="text" className="text-box" name="Availability" />  
         </label>
         <label>
           Additional Information:
