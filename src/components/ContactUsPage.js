@@ -13,7 +13,7 @@ function ContactUsPage() {
           <p>City, Country</p>
         </div>
       </div>
-        <form className="contact-form" action="https://formspree.io/f/mnqkylwq" method="POST">
+        <form className="contact-form" action="https://formspree.io/f/mvoeddnj" method="POST">
           <label>
           Name:
           <input type="text" className="text-box" name="Name"  />
