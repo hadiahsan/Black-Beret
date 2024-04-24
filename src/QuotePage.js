@@ -41,7 +41,7 @@ function QuotePage() {
             <option value="garage-racks">Garage Racks All Types</option>
             <option value="other">Other</option>
           </select>
-        </label> 
+        </label>
 
         <label>
           Hardware Required:
