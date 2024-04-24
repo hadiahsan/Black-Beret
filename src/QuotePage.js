@@ -15,7 +15,11 @@ function QuotePage() {
           <input type="tel" className="text-box" name="Phone Number"  />
         </label>
         <label>
-          Address:
+          Email Address:
+          <input type="text" className="text-box" name="Email Address"  />
+        </label>
+        <label>
+          House Address:
           <input type="text" className="text-box" name="Address"  />
         </label>
         <label>
