@@ -4,19 +4,25 @@ import './Stylings/QuotePage.css';
 function QuotePage() {
   return (
     <div className="quote-container">
+      <div className="contact-header">
+          <h2>If you have any questions or need assistance, feel free to reach out to us.</h2>
+          <p>blackberetinstallations@gmail.com</p>
+          <p>+1 647-807-6052</p>
+          <p>London, Ontario</p>
+        </div>
       <h1>Get a Competitive Quote</h1>
       <form action="https://formspree.io/f/mvoeddnj" method="POST">
         <label>
           Full Name:
-          <input type="text" className="text-box" name="Full Name"  />
+          <input type="text" className="text-box" name="Full Name" />
         </label>
         <label>
           Phone Number:
-          <input type="tel" className="text-box" name="Phone Number"  />
+          <input type="tel" className="text-box" name="Phone Number" />
         </label>
         <label>
-          Email Address:
-          <input type="text" className="text-box" name="Email Address"  />
+          Email:
+          <input type="text" className="text-box" name="Email"  />
         </label>
         <label>
           House Address:
