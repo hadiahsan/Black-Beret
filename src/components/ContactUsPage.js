@@ -17,7 +17,7 @@ function ContactUsPage() {
           <label>
           Name:
           <input type="text" className="text-box" name="Name"  />
-          </label>
+          </label> 
 
           <label>
           Email:

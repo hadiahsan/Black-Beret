@@ -13,7 +13,7 @@ function QuotePage() {
       <h1>Get a Competitive Quote</h1>
       <form action="https://formspree.io/f/mvoeddnj" method="POST">
         <label>
-          Full Name:
+          Full Name: 
           <input type="text" className="text-box" name="Full Name" />
         </label>
         <label>
