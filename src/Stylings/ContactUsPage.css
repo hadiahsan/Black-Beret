@@ -4,9 +4,11 @@
   padding: 40px; /* Consistent padding */
   text-align: center;
   color: white;
-  background-color: #2B2B2B; /* Consistent background color */
+  background-color: #6495ED; /* Consistent background color */
   border-radius: 10px; /* Rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .contact-container h1 {

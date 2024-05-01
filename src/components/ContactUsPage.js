@@ -4,7 +4,7 @@ import '../Stylings/ContactUsPage.css';
 function ContactUsPage() {
   return (
     <div className="contact-container">
-      <h1>Contact Us</h1>
+    <h1>Contact Us</h1>
       <div className="contact-content">
         <div className="contact-header">
           <h2>If you have any questions or need assistance, feel free to reach out to us.</h2>
@@ -15,13 +15,13 @@ function ContactUsPage() {
       </div>
         <form className="contact-form" action="https://formspree.io/f/mvoeddnj" method="POST">
           <label>
-          Name:
-          <input type="text" className="text-box" name="Name"  />
+          Name: *
+          <input type="text" className="text-box" name="Name" required />
           </label> 
 
           <label>
-          Email:
-          <input type="text" className="text-box" name="Email"  />
+          Email: *
+          <input type="text" className="text-box" name="Email" required />
           </label>
 
           <label>

@@ -4,9 +4,15 @@
   padding: 40px; /* Increased padding for better spacing */
   text-align: center;
   color: white;
-  background-color: #2B2B2B; /* Optional: Add a background color */
+  background-color: #6495ED; /* Optional: Add a background color */
   border-radius: 10px; /* Optional: Rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Box shadow for depth */
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.quote-header {
+  font-size: 1.5em;
 }
 
 .quote-container h1 {
@@ -92,7 +98,11 @@
 
 .text-box:focus {
   outline: none; /* Removes the default focus outline */
-  border-color: #6658d3; /* Changes border color on focus */
+  border-color: #00FFFF; /* Changes border color on focus */
   box-shadow: 0 0 5px rgba(102, 88, 211, 0.5); /* Adds a subtle shadow on focus */
+}
+
+.my-button {
+  color: red;
 }
 

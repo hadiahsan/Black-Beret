@@ -4,25 +4,25 @@ import './Stylings/QuotePage.css';
 function QuotePage() {
   return (
     <div className="quote-container">
-      <div className="contact-header">
+    <h1>Get a Competitive Quote</h1>
+      <div className="quote-header">
           <h2>If you have any questions or need assistance, feel free to reach out to us.</h2>
           <p>blackberetinstallations@gmail.com</p>
           <p>+1 647-807-6052</p>
           <p>London, Ontario</p>
         </div>
-      <h1>Get a Competitive Quote</h1>
       <form action="https://formspree.io/f/mvoeddnj" method="POST">
         <label>
-          Full Name: 
-          <input type="text" className="text-box" name="Full Name" />
+          Full Name: *
+          <input type="text" className="text-box" name="Full Name" required />
         </label>
         <label>
-          Phone Number:
-          <input type="tel" className="text-box" name="Phone Number" />
+          Phone Number: *
+          <input type="tel" className="text-box" name="Phone Number" required />
         </label>
         <label>
-          Email:
-          <input type="text" className="text-box" name="Email"  />
+          Email: *
+          <input type="text" className="text-box" name="Email"  required />
         </label>
         <label>
           House Address:
@@ -75,7 +75,7 @@ function QuotePage() {
           Additional Information:
           <textarea className="text-box" name="Additional Info" ></textarea>
         </label>
-        <button type="submit">Get My Quote</button>
+        <button type="submit" >Get My Quote</button>
       </form>
     </div>
   );
